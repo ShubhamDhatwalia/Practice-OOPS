@@ -7,7 +7,7 @@ public class Main {
 }
 
 interface Shape{
-    double calculateArea();
+    public double calculateArea();
 }
 
 class Circle implements Shape{
